@@ -52,6 +52,11 @@
   .\Create-DefaultListForms.ps1 -CSVPath C:\temp\targetlists.csv
 
   Creates list forms for specified siteUrl and listTitle rows in a CSV file located at C:\temp\targetlists.csv
+
+ .EXAMPLE
+  .\Create-DefaultListForms.ps1 -CSVPath C:\temp\targetlists.csv -UseWebLogin
+
+  Creates list forms for specified siteUrl and listTitle rows in a CSV file located at C:\temp\targetlists.csv, using the browser for login
 #>
 
 param(
